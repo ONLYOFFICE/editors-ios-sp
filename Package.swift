@@ -34,80 +34,80 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "DocumentConverter",
-            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/release/v8.2.0/148/DocumentConverter.xcframework.zip",
-            checksum: "b4bace055873d3b658f42048cb52945b1f603c143942f5a6bfabfcba404fe926"),
+            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/hotfix/v8.2.1/150/DocumentConverter.xcframework.zip",
+            checksum: "7fa91b1cdf8cdae856db148f867b9c98f02e70e96a77663d37a591ccd61c7712"),
         .binaryTarget(
             name: "DocumentEditor",
-            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/release/v8.2.0/148/DocumentEditor.xcframework.zip",
-            checksum: "f7af1033ba8da1371dad272919895d93f732a603ea87392ac9e2ff632eba7461"),
+            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/hotfix/v8.2.1/150/DocumentEditor.xcframework.zip",
+            checksum: "020b46d4b24f6154c50753ad637d59563e14614b808b6a00aee957721dc53bc0"),
         .binaryTarget(
             name: "PresentationEditor",
-            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/release/v8.2.0/148/PresentationEditor.xcframework.zip",
-            checksum: "0843e6dcd27b7c08b59eba2253e4bc3868b7dcd875950d37893b747a2200044f"),
+            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/hotfix/v8.2.1/150/PresentationEditor.xcframework.zip",
+            checksum: "3818ed42b9aa29ef9143707ae36cce7858015af2edaff36b9fc19ed88e32f4b9"),
         .binaryTarget(
             name: "SpreadsheetEditor",
-            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/release/v8.2.0/148/SpreadsheetEditor.xcframework.zip",
-            checksum: "8efd534ec9939233d5b3917041b1613f63b130a222ee7eedb1c5af20b6630b17"),
+            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/hotfix/v8.2.1/150/SpreadsheetEditor.xcframework.zip",
+            checksum: "9b1a135d3b78187f850463fdf5b2fc024a8a771d2566ae20e58f171f2a5db455"),
         .binaryTarget(
             name: "DjVuFile",
-            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/release/v8.2.0/148/DjVuFile.xcframework.zip",
-            checksum: "531d8464f1899f3fda94718a0a08df3b4ee4946ff77449ccc1e45d01ff879e70"),
+            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/hotfix/v8.2.1/150/DjVuFile.xcframework.zip",
+            checksum: "f863bbcaf419e207a0a2e1445f80fbb99c7ad6cda4201ef77fb1c4ee02cbd856"),
         .binaryTarget(
             name: "doctrenderer",
-            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/release/v8.2.0/148/doctrenderer.xcframework.zip",
-            checksum: "e3d0d9decf18cab94026147d118a48653de0b87e16f0fd9ecc150138eae5e9d8"),
+            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/hotfix/v8.2.1/150/doctrenderer.xcframework.zip",
+            checksum: "ea37f7a841836fa89a9329032776228ed724d35d695a48cdb1e01bc7446e86ee"),
         .binaryTarget(
             name: "DocxRenderer",
-            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/release/v8.2.0/148/DocxRenderer.xcframework.zip",
-            checksum: "b744db6806ee7ff4e6bba9709128de6058fdde1c37b04a40edeb04b5e0618ab3"),
+            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/hotfix/v8.2.1/150/DocxRenderer.xcframework.zip",
+            checksum: "8dd60a0b5c9d36c43a006be934257e9eb0ba43ca3c34cba0640a2fb46cd01a85"),
         .binaryTarget(
             name: "engine",
-            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/release/v8.2.0/148/engine.xcframework.zip",
-            checksum: "dc26ab05cdeb599cc7609bf6530c7d743aa81e1d134e078f0d086fbc510f4493"),
+            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/hotfix/v8.2.1/150/engine.xcframework.zip",
+            checksum: "e68e204adfe169253a269a615f98f2a227856394aa93fdd40ce9cf2a96cb17c9"),
         .binaryTarget(
             name: "EpubFile",
-            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/release/v8.2.0/148/EpubFile.xcframework.zip",
-            checksum: "b8d7b76710e55eb3f0842fa5c28ac0c4b8d2bfbb58ed00b16dd733c62cfbde63"),
+            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/hotfix/v8.2.1/150/EpubFile.xcframework.zip",
+            checksum: "8f487507c39a775d317dc360b9b87544dd3ab742b945df5c578e299e8dd31901"),
         .binaryTarget(
             name: "Fb2File",
-            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/release/v8.2.0/148/Fb2File.xcframework.zip",
-            checksum: "564248e2f5da00f0d3bd1c371a7c0353a67ecf4790a0c5b230de867701c617d3"),
+            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/hotfix/v8.2.1/150/Fb2File.xcframework.zip",
+            checksum: "2cb4c70373e52146c8de7e12c65859d5977847afc2bdb96fab32eece4380a30a"),
         .binaryTarget(
             name: "graphics",
-            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/release/v8.2.0/148/graphics.xcframework.zip",
-            checksum: "5cef5950da7ace0f727e0a1829da25b63a69f73a4f92a72b98f875e163cff1f7"),
+            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/hotfix/v8.2.1/150/graphics.xcframework.zip",
+            checksum: "de710d95786422b424062815bdeab11f36430da870978cd0eee56b571bb29858"),
         .binaryTarget(
             name: "HtmlFile2",
-            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/release/v8.2.0/148/HtmlFile2.xcframework.zip",
-            checksum: "9d3e2b06b730a27522d5bf88e7045fb9a68462310496ebab882c2c45f65d1cf2"),
+            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/hotfix/v8.2.1/150/HtmlFile2.xcframework.zip",
+            checksum: "a993349141eafdeb11183c8e0f393939ed6a028629feddcd0bae3b508226849b"),
         .binaryTarget(
             name: "HtmlRenderer",
-            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/release/v8.2.0/148/HtmlRenderer.xcframework.zip",
-            checksum: "3ee5c1f070b24ac68333d12066c14038b1b770ca302aab5fe9ab02d94108966b"),
+            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/hotfix/v8.2.1/150/HtmlRenderer.xcframework.zip",
+            checksum: "2cf3d9b1bb74a3045e6c5b3f8c45209cd69119fc36eba76b66ddb38833acfbed"),
         .binaryTarget(
             name: "kernel",
-            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/release/v8.2.0/148/kernel.xcframework.zip",
-            checksum: "696252dc76741bd7060c750da8917e4cb9ca5ffd0000f5fc0f69e5271834c9f3"),
+            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/hotfix/v8.2.1/150/kernel.xcframework.zip",
+            checksum: "a0e4a64f5887d30c240aed89ce064191bf7bce6434caf6292665bd0ff0cca3cd"),
         .binaryTarget(
             name: "kernel_network",
-            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/release/v8.2.0/148/kernel_network.xcframework.zip",
-            checksum: "4095c3d9e688d8d6e93ce137f2df9f9e4e615e4780705c9843691187b395ec62"),
+            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/hotfix/v8.2.1/150/kernel_network.xcframework.zip",
+            checksum: "6418aeab324bac7fcc81f4d82e6a58dfa8748dfee5c47978afa25ebb0244003a"),
         .binaryTarget(
             name: "PdfFile",
-            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/release/v8.2.0/148/PdfFile.xcframework.zip",
-            checksum: "3781726858953ff5c2187e83389a65096d955c5a0687963ad31a0551f41a72b4"),
+            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/hotfix/v8.2.1/150/PdfFile.xcframework.zip",
+            checksum: "eb9caacf6d6a1cad503c1767f34073c401610043442741f8778144d86268fda3"),
         .binaryTarget(
             name: "UnicodeConverter",
-            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/release/v8.2.0/148/UnicodeConverter.xcframework.zip",
-            checksum: "283b37f42e2d0e24cd61e2116c30d797b6243f343652526dad9475dee6bab9e6"),
+            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/hotfix/v8.2.1/150/UnicodeConverter.xcframework.zip",
+            checksum: "dc0363a8fe67304f11c36e7b1e845f5f9a63d7620b9b5e106587d797a71f38e5"),
         .binaryTarget(
             name: "x2t",
-            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/release/v8.2.0/148/x2t.xcframework.zip",
-            checksum: "52b8485956cdc98a225c720df3e51c117f040fc5ab732b3562acdaebd3fb74c8"),
+            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/hotfix/v8.2.1/150/x2t.xcframework.zip",
+            checksum: "ad61ec943f20a8df8ce394a4e0cb0d48cdfd7381939f90edcafad38c2979e364"),
         .binaryTarget(
             name: "XpsFile",
-            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/release/v8.2.0/148/XpsFile.xcframework.zip",
-            checksum: "ce2668c60d44ae20f7c3f45be009d03c01097b86b56434df9178d01f7dba8123"),
+            url: "https://s3.eu-west-1.amazonaws.com/repo-doc-onlyoffice-com/ios/editors/hotfix/v8.2.1/150/XpsFile.xcframework.zip",
+            checksum: "1b314f4831a365b3f4d3e3a2a45e9cfb9a75c3b1df7dc1e366a655bd1a07ffd1"),
     ]
 )
 
