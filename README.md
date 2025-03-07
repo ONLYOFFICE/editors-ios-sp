@@ -11,11 +11,12 @@ ONLYOFFICE Documents app for iOS is a complete mobile office suite. It allows us
 
 ONLYOFFICE editors for iOS contain the following components:
 
-* __DocumentConverter.xcframework__ is used to enable conversion between the most popular office file formats (DOC, DOCX, ODT, RTF, TXT, PDF, HTML, EPUB, XPS, DjVu, XLS, XLSX, ODS, CSV, PPT, PPTX, ODP). This component is required for proper work of the editors.
-* __DocumentEditor.xcframework__ is used to view and edit text documents, open and fill out OFORM forms.
+* __DocumentConverter.xcframework__ is used to enable conversion between the most popular office file formats (DOC, DOCX, ODT, RTF, TXT, PDF, HTML, EPUB, XPS, DjVu, XLS, XLSX, ODS, CSV, PPT, PPTX, ODP, Pages, Numbers, Key, HWP, HWPX). This component is required for proper work of the editors.
+* __DocumentEditor.xcframework__ is used to view and edit text documents, open and fill out PDF forms.
 * __SpreadsheetEditor.xcframework__ is used to view and edit spreadsheets.
 * __PresentationEditor.xcframework__ is used to view and edit presentations.
-* The following modules are also supplied as __dependencies__: *DjVuFile.xcframework, doctrenderer.xcframework, DocxRenderer.xcframework, EpubFile.xcframework, Fb2File.xcframework, graphics.xcframework, HtmlFile2.xcframework, HtmlRenderer.xcframework, kernel.xcframework, kernel_network.xcframework, PdfFile.xcframework, UnicodeConverter.xcframework, x2t.xcframework, XpsFile.xcframework*.
+* The following modules are also supplied as __dependencies__: *DjVuFile.xcframework, doctrenderer.xcframework, DocxRenderer.xcframework, engine.xcframework, EpubFile.xcframework, Fb2File.xcframework, graphics.xcframework, HtmlFile2.xcframework, HWPFile.xcframework, IWorkFile.xcframework, kernel_network.xcframework, kernel.xcframework, PdfFile.xcframework, UnicodeConverter.xcframework, x2t.xcframework, XpsFile.xcframework*.
+
 
 ## Project Information
 
